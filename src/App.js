@@ -14,8 +14,8 @@ function App() {
         <main className="flex-grow">
             <Routes>
             <Route path="*" element={<Navigate to="/404"/>}/>
-              <Route exact path="/pages/Home" element={<Home/>} />
-              <Route exact path="../pages/ApiDocs" element={<ApiDocs/>} />
+              <Route exact path="/" element={<Home/>} />
+              <Route exact path="/apidocs" element={<ApiDocs/>} />
             
             </Routes>
         </main>
